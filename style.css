@@ -133,3 +133,178 @@ i{
     margin-top: 15px;
     font-weight: bold;
 }
+
+/* panel div  */
+
+.panel {
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+    padding-top: 10px;
+    font-size: 0.85rem;
+    text-align: left;
+    
+}
+
+.panel-deals {
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* main section */
+
+.main-section {
+    background-image: url("./Images/wallpaper_1.jpg");
+    background-size:cover;
+    height:  350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-msg {
+    display: flex;
+    background-color: white;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 18px;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+    border:0.5px solid #222f3d;
+}
+
+.main-msg a{
+    color: navy;
+}
+
+/* shopping section */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(245, 243, 227);
+    
+}
+
+.box{
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box p {
+    color: navy;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 15px;
+}
+
+.footer1 {
+    background-color: #37475a;
+    color: #f3f3f3;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.footer2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+     
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
+
+.footer3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #dddddd ;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    background-image: url("./Images/amazon_logo.png");
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.footer4 {
+    background-color: #0f1720;
+    color: #dddddd;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+    height: 80px;
+}
+
+.pages {
+    padding-top: 25px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.7rem;
+    text-align: center ;
+}
